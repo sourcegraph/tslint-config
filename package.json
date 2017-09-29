@@ -6,6 +6,7 @@
   "dependencies": {
     "rxjs-tslint-rules": "^2.1.6",
     "tslint": "^5.7.0",
+    "tslint-react": "^3.2.0",
     "typescript": "^2.5.2"
   }
 }

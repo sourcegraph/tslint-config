@@ -1,9 +1,11 @@
 {
   "extends": [
     "tslint:recommended",
-    "rxjs-tslint-rules"
+    "rxjs-tslint-rules",
+    "tslint-react"
   ],
   "rules": {
+
     "rxjs-add": {
       "severity": "error"
     },
@@ -11,6 +13,11 @@
       "severity": "error"
     },
     "rxjs-no-wholesale": true,
+
+    "jsx-self-close": false,
+    "jsx-no-multiline-js": false,
+    "jsx-key": false,
+
     "adjacent-overload-signatures": true,
     "no-shadowed-variable": false,
     "member-access": [
