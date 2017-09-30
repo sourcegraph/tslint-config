@@ -6,7 +6,7 @@ TSLint rules for TypeScript projects at Sourcegraph.
 ## Usage
 
 ```
-npm install --save-dev @sourcegraph/tslint
+npm install --save-dev @sourcegraph/tslint-config
 ```
 
 Then add this tslint.json:
