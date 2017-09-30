@@ -1,6 +1,9 @@
 
 # Sourcegraph TSLint config
 
+[![Version](https://img.shields.io/npm/v/@sourcegraph/tslint-config.svg)](https://www.npmjs.com/package/@sourcegraph/tslint-config)
+[![Downloads](https://img.shields.io/npm/dt/@sourcegraph/tslint-config.svg)](https://www.npmjs.com/package/@sourcegraph/tslint-config)
+
 TSLint rules for TypeScript projects at Sourcegraph.
 
 ## Usage
