@@ -213,7 +213,7 @@
       true,
       {
         "singleline": "never",
-        "multiline": "never"
+        "multiline": "always"
       }
     ],
     "align": [
