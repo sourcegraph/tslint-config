@@ -213,7 +213,13 @@
       true,
       {
         "singleline": "never",
-        "multiline": "always"
+        "multiline": {
+          "array": "always",
+          "object": "always",
+          "imports": "always",
+          "exports": "always",
+          "functions": "never"
+        }
       }
     ],
     "align": [
