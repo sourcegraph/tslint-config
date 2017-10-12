@@ -95,7 +95,7 @@
       true,
       "array"
     ],
-    "arrow-return-shorthand": true,
+    "arrow-return-shorthand": [true, "multiline"],
     "import-spacing": true,
     "interface-over-type-literal": true,
     "callable-types": true,
