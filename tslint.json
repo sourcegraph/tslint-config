@@ -214,10 +214,11 @@
       {
         "singleline": "never",
         "multiline": {
-          "array": "always",
-          "object": "always",
+          "arrays": "always",
+          "objects": "always",
           "imports": "always",
           "exports": "always",
+          "typeLiterals": "always",
           "functions": "never"
         }
       }
