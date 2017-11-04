@@ -2,10 +2,8 @@
   "extends": [
     "tslint:recommended",
     "rxjs-tslint-rules",
-    "tslint-react",
-    "tslint-config-prettier"
+    "tslint-react"
   ],
-  "rulesDirectory": ["tslint-plugin-prettier"],
   "rules": {
     "adjacent-overload-signatures": true,
     "align": [
@@ -166,11 +164,9 @@
       false,
       "allow-single-concat"
     ],
-    "prettier": true,
     "quotemark": [
       true,
-      "single",
-      "jsx-double"
+      "single"
     ],
     "return-undefined": true,
     "rxjs-add": {
@@ -201,9 +197,8 @@
           "functions": "never",
           "imports": "always",
           "objects": "always",
-          "typeLiterals": "never"
+          "typeLiterals": "always"
         },
-        "esSpecCompliant": true,
         "singleline": "never"
       }
     ],
