@@ -15,7 +15,7 @@
     "typescript"
   ],
   "scripts": {
-    "prettier": "prettier --config node_modules/@sourcegraph/prettierrc/.prettierrc --list-different --write tslint.json"
+    "prettier": "prettier --list-different --write tslint.json"
   },
   "dependencies": {
     "rxjs-tslint-rules": "^2.1.6",
