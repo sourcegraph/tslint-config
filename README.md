@@ -1,8 +1,10 @@
 
 # Sourcegraph TSLint config
 
-[![Version](https://img.shields.io/npm/v/@sourcegraph/tslint-config.svg)](https://www.npmjs.com/package/@sourcegraph/tslint-config)
-[![Downloads](https://img.shields.io/npm/dt/@sourcegraph/tslint-config.svg)](https://www.npmjs.com/package/@sourcegraph/tslint-config)
+[![npm](https://img.shields.io/npm/v/@sourcegraph/tslint-config.svg)](https://www.npmjs.com/package/@sourcegraph/tslint-config)
+[![downloads](https://img.shields.io/npm/dt/@sourcegraph/tslint-config.svg)](https://www.npmjs.com/package/@sourcegraph/tslint-config)
+[![build](https://badge.buildkite.com/2b5a1607bd327fe0a1fcd6e02e38dce55a355f215970a8d83f.svg)](https://buildkite.com/sourcegraph/tslint-config)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 TSLint rules for TypeScript projects at Sourcegraph.
 
