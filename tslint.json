@@ -90,10 +90,10 @@
     "prettier": true,
     "quotemark": [true, "single", "jsx-double", "avoid-escape"],
     "return-undefined": true,
-    "rxjs-add": {
+    "rxjs-no-add": {
       "severity": "error"
     },
-    "rxjs-no-unused-add": {
+    "rxjs-no-patched": {
       "severity": "error"
     },
     "rxjs-no-wholesale": true,
