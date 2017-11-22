@@ -90,6 +90,9 @@
     "prettier": true,
     "quotemark": [true, "single", "jsx-double", "avoid-escape"],
     "return-undefined": true,
+    "rxjs-no-operator": {
+      "severity": "error"
+    },
     "rxjs-no-add": {
       "severity": "error"
     },
