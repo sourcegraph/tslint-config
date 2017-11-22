@@ -3,6 +3,9 @@
   "version": "9.0.0",
   "description": "TSLint config for TypeScript projects at Sourcegraph",
   "main": "tslint.json",
+  "files": [
+    "tslint.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/sourcegraph/tslint-config"
