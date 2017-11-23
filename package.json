@@ -21,6 +21,7 @@
     "prettier": "prettier --list-different --write tslint.json"
   },
   "dependencies": {
+    "rxjs": "^5.5.2",
     "rxjs-tslint-rules": "^3.1.1",
     "tslint": "^5.8.0",
     "tslint-config-prettier": "^1.6.0",
