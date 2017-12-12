@@ -81,7 +81,7 @@
     "object-literal-sort-keys": false,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
-    "prefer-const": true,
+    "prefer-const": [true, { "destructuring": "all" }],
     "prefer-for-of": true,
     "prefer-template": [false, "allow-single-concat"],
     "prettier": true,
