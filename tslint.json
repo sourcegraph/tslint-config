@@ -26,6 +26,7 @@
     "jsx-key": false,
     "jsx-no-multiline-js": false,
     "jsx-self-close": false,
+    "jsx-ban-props": [true, ["style", "Move styles into an SCSS stylesheet"]],
     "max-classes-per-file": [false],
     "member-access": [true, "check-accessor"],
     "member-ordering": [
