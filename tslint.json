@@ -1,6 +1,5 @@
 {
   "extends": ["tslint:recommended", "rxjs-tslint-rules", "tslint-react", "tslint-config-prettier"],
-  "rulesDirectory": ["tslint-plugin-prettier"],
   "rules": {
     "adjacent-overload-signatures": true,
     "array-type": [true, "array"],
