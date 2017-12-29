@@ -22,10 +22,10 @@
     "interface-name": [false],
     "interface-over-type-literal": true,
     "jsdoc-format": true,
+    "jsx-ban-props": [true, ["style", "Move styles into an SCSS stylesheet"]],
     "jsx-key": false,
     "jsx-no-multiline-js": false,
     "jsx-self-close": false,
-    "jsx-ban-props": [true, ["style", "Move styles into an SCSS stylesheet"]],
     "max-classes-per-file": [false],
     "member-access": [true, "check-accessor"],
     "member-ordering": [
@@ -65,6 +65,7 @@
     "no-string-literal": true,
     "no-string-throw": true,
     "no-trailing-whitespace": true,
+    "no-unbound-method": true,
     "no-unnecessary-callback-wrapper": true,
     "no-unnecessary-qualifier": true,
     "no-unnecessary-type-assertion": false,
@@ -81,15 +82,20 @@
     "object-literal-sort-keys": false,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
-    "prefer-const": [true, { "destructuring": "all" }],
+    "prefer-const": [
+      true,
+      {
+        "destructuring": "all"
+      }
+    ],
     "prefer-for-of": true,
     "prefer-template": [false, "allow-single-concat"],
     "quotemark": [true, "single", "jsx-double", "avoid-escape"],
     "return-undefined": true,
-    "rxjs-no-operator": {
+    "rxjs-no-add": {
       "severity": "error"
     },
-    "rxjs-no-add": {
+    "rxjs-no-operator": {
       "severity": "error"
     },
     "rxjs-no-patched": {
