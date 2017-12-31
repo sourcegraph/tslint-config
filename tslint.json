@@ -16,7 +16,9 @@
     "class-name": true,
     "comment-format": [true, "check-space"],
     "curly": true,
-    "deprecation": true,
+    "deprecation": {
+      "severity": "warning"
+    },
     "eofline": true,
     "import-spacing": true,
     "interface-name": [false],
