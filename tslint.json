@@ -114,7 +114,6 @@
     ],
     "triple-equals": [true],
     "typedef": [true, "call-signature"],
-    "typeof-compare": true,
     "unified-signatures": true,
     "variable-name": [true, "ban-keywords"]
   }
