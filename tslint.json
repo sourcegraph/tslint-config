@@ -30,12 +30,7 @@
     "jsx-self-close": false,
     "max-classes-per-file": [false],
     "member-access": [true, "check-accessor"],
-    "member-ordering": [
-      true,
-      {
-        "order": ["static-field", "instance-field", "constructor", "static-method", "instance-method"]
-      }
-    ],
+    "member-ordering": [false],
     "new-parens": true,
     "no-angle-bracket-type-assertion": true,
     "no-arg": true,
