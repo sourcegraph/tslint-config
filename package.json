@@ -24,7 +24,7 @@
     "tslint": "^5.8.0"
   },
   "dependencies": {
-    "rxjs-tslint-rules": "^3.3.0",
+    "rxjs-tslint-rules": "^4.2.0",
     "tslint-config-prettier": "^1.6.0",
     "tslint-react": "^3.2.0"
   },
