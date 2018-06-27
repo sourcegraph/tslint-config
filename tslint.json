@@ -10,7 +10,9 @@
       true,
       {
         "name": ["*", "forEach"]
-      }
+      },
+      ["describe", "only"],
+      ["it", "only"]
     ],
     "callable-types": true,
     "class-name": true,
