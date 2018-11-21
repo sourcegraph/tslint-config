@@ -91,16 +91,6 @@
     "prefer-template": [false, "allow-single-concat"],
     "quotemark": [true, "single", "jsx-double", "avoid-escape"],
     "return-undefined": true,
-    "rxjs-no-add": {
-      "severity": "error"
-    },
-    "rxjs-no-operator": {
-      "severity": "error"
-    },
-    "rxjs-no-patched": {
-      "severity": "error"
-    },
-    "rxjs-no-wholesale": true,
     "space-before-function-paren": [
       true,
       {
