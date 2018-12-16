@@ -40,6 +40,7 @@
     "no-boolean-literal-compare": true,
     "no-conditional-assignment": true,
     "no-consecutive-blank-lines": [true, 1],
+    "no-object-literal-type-assertion": { "severity": "warning" },
     "no-console": [false],
     "no-construct": true,
     "no-debugger": true,
