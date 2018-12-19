@@ -64,6 +64,10 @@
     "no-sparse-arrays": true,
     "no-string-literal": true,
     "no-string-throw": true,
+    "no-submodule-imports": {
+      "severity": "warning",
+      "options": ["rxjs/operators", "rxjs/ajax", "rxjs/_esm5/path-mapping", "mdi-react", "date-fns", "worker-loader!"]
+    },
     "no-trailing-whitespace": true,
     "no-unbound-method": true,
     "no-unnecessary-callback-wrapper": false,
