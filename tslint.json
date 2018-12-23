@@ -66,7 +66,20 @@
     "no-string-throw": true,
     "no-submodule-imports": {
       "severity": "warning",
-      "options": ["rxjs/operators", "rxjs/ajax", "rxjs/_esm5/path-mapping", "mdi-react", "date-fns", "worker-loader!"]
+      "options": [
+        "rxjs/operators",
+        "rxjs/ajax",
+        "rxjs/_esm5/path-mapping",
+        "ix/iterable",
+        "ix/iterable/pipe/index",
+        "ix/asynciterable",
+        "ix/asynciterable/pipe/index",
+        "mdi-react",
+        "date-fns",
+        "worker-loader!",
+        "source-map-support/register",
+        "mz"
+      ]
     },
     "no-trailing-whitespace": true,
     "no-unbound-method": true,
