@@ -29,7 +29,7 @@
     "tslint-react": "^3.2.0"
   },
   "devDependencies": {
-    "@sourcegraph/prettierrc": "^2.1.0",
-    "prettier": "1.9.2"
+    "@sourcegraph/prettierrc": "^2.2.0",
+    "prettier": "1.16.4"
   }
 }
