@@ -30,7 +30,7 @@
     "jsx-key": false,
     "jsx-no-multiline-js": false,
     "jsx-self-close": false,
-    "max-classes-per-file": [false],
+    "max-classes-per-file": false,
     "member-access": [true, "check-accessor"],
     "member-ordering": [false],
     "new-parens": true,
@@ -44,11 +44,25 @@
     "no-console": [false],
     "no-construct": true,
     "no-debugger": true,
+    "no-duplicate-imports": true,
     "no-duplicate-super": true,
     "no-duplicate-variable": true,
+    "no-implicit-dependencies": false,
     "no-empty": true,
     "no-empty-interface": false,
     "no-eval": true,
+    "no-tautology-expression": {
+      "severity": "warning"
+    },
+    "no-unnecessary-class": true,
+    "prefer-object-spread": true,
+    "strict-type-predicates": {
+      "severity": "warning"
+    },
+    "unnecessary-constructor": true,
+    "no-require-imports": true,
+    "prefer-readonly": false,
+    "unnecessary-bind": true,
     "no-floating-promises": [true],
     "no-for-in-array": true,
     "no-inferrable-types": [true],
@@ -70,14 +84,19 @@
         "rxjs/operators",
         "rxjs/ajax",
         "rxjs/_esm5/path-mapping",
+        "rxjs/testing",
         "ix/iterable",
         "ix/iterable/pipe/index",
         "ix/asynciterable",
         "ix/asynciterable/pipe/index",
+        "highlight.js/lib/highlight",
+        "@sourcegraph/comlink/messagechanneladapter",
         "mdi-react",
         "date-fns",
         "worker-loader!",
         "source-map-support/register",
+        "@storybook/addon-actions/register",
+        "@storybook/addon-links/register",
         "mz"
       ]
     },
@@ -85,13 +104,15 @@
     "no-unbound-method": true,
     "no-unnecessary-callback-wrapper": false,
     "no-unnecessary-qualifier": true,
-    "no-unnecessary-type-assertion": false,
+    "no-unnecessary-type-assertion": {
+      "severity": "warning"
+    },
     "no-unsafe-any": false,
     "no-unsafe-finally": true,
     "no-unused-expression": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
-    "no-var-requires": false,
+    "no-var-requires": true,
     "no-void-expression": false,
     "number-literal-format": true,
     "object-literal-key-quotes": [true, "as-needed"],
@@ -117,9 +138,16 @@
         "named": "never"
       }
     ],
+    "rxjs-no-ignored-observable": true,
+    "rxjs-no-nested-subscribe": {
+      "severity": "warning"
+    },
+    "rxjs-no-unbound-methods": true,
+    "rxjs-throw-error": true,
     "triple-equals": [true],
     "typedef": [true, "call-signature"],
     "unified-signatures": true,
+    "unnecessary-else": true,
     "variable-name": [true, "ban-keywords"]
   }
 }
