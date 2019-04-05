@@ -68,9 +68,9 @@ resolve@^1.4.0:
   dependencies:
     path-parse "^1.0.5"
 
-rxjs-tslint-rules@^4.19.1:
+rxjs-tslint-rules@^4.19.0:
   version "4.19.1"
-  resolved "https://registry.npmjs.org/rxjs-tslint-rules/-/rxjs-tslint-rules-4.19.1.tgz#e5328cface0a0d0b52f2601082fa1ffd617f7869"
+  resolved "https://registry.yarnpkg.com/rxjs-tslint-rules/-/rxjs-tslint-rules-4.19.1.tgz#e5328cface0a0d0b52f2601082fa1ffd617f7869"
   integrity sha512-TwosfLg5HgG6vSq6uHM49cUMJxX6ZfF8Cd4/r7TPc/h4hV2vm675T7zwO49MD2YxNpQbge4Xi8EOzn8XvJwYAA==
   dependencies:
     "@phenomnomnominal/tsquery" "^3.0.0"
