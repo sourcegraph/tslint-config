@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint:recommended", "rxjs-tslint-rules", "tslint-react", "tslint-config-prettier"],
+  "extends": ["tslint:recommended", "rxjs-tslint-rules", "tslint-react", "tslint-config-prettier", "tslint-react-hooks"],
   "rules": {
     "adjacent-overload-signatures": true,
     "array-type": [true, "array"],
@@ -154,6 +154,7 @@
     "typedef": [true, "call-signature"],
     "unified-signatures": true,
     "unnecessary-else": true,
-    "variable-name": [true, "ban-keywords"]
+    "variable-name": [true, "ban-keywords"],
+    "react-hooks-nesting": "error"
   }
 }
