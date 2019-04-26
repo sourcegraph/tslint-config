@@ -138,7 +138,13 @@
         "named": "never"
       }
     ],
+    "rxjs-no-async-subscribe": {
+      "severity": "warning"
+    },
     "rxjs-no-ignored-observable": true,
+    "rxjs-no-ignored-subscription": {
+      "severity": "warning"
+    },
     "rxjs-no-nested-subscribe": {
       "severity": "warning"
     },
