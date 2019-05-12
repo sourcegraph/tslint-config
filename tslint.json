@@ -97,7 +97,9 @@
         "source-map-support/register",
         "@storybook/addon-actions/register",
         "@storybook/addon-links/register",
-        "mz"
+        "mz",
+        "monaco-editor/esm/vs/editor/editor.api",
+        "react-test-renderer/shallow"
       ]
     },
     "no-trailing-whitespace": true,
