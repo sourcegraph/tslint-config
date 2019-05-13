@@ -30,7 +30,7 @@
     "tslint-react-hooks": "^2.1.0"
   },
   "devDependencies": {
-    "@sourcegraph/prettierrc": "^2.2.0",
+    "@sourcegraph/prettierrc": "^3.0.0",
     "prettier": "1.17.0"
   }
 }
