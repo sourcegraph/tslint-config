@@ -1,5 +1,11 @@
 {
-  "extends": ["tslint:recommended", "rxjs-tslint-rules", "tslint-react", "tslint-config-prettier", "tslint-react-hooks"],
+  "extends": [
+    "tslint:recommended",
+    "rxjs-tslint-rules",
+    "tslint-react",
+    "tslint-config-prettier",
+    "tslint-react-hooks"
+  ],
   "rules": {
     "adjacent-overload-signatures": true,
     "array-type": [true, "array"],

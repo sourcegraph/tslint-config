@@ -8,4 +8,4 @@ cache:
     - $HOME/.npm
 
 script:
-  - npm run prettier
+  - npm run prettier-check

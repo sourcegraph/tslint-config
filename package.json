@@ -18,7 +18,8 @@
     "typescript"
   ],
   "scripts": {
-    "prettier": "prettier --list-different --write tslint.json"
+    "prettier": "prettier --list-different --write tslint.json",
+    "prettier-check": "npm run prettier -- --write=false"
   },
   "peerDependencies": {
     "tslint": "^5.15.0"
