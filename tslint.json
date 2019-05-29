@@ -25,6 +25,10 @@
       {
         "name": ["it", "only"],
         "message": "Don't forget to remove .only before committing"
+      },
+      {
+        "name": ["jest", "fn"],
+        "message": "Use sinon.spy() instead and pass it a stub implementation to ensure type safety"
       }
     ],
     "callable-types": true,
