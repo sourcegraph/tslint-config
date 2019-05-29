@@ -15,10 +15,17 @@
     "ban": [
       true,
       {
-        "name": ["*", "forEach"]
+        "name": ["*", "forEach"],
+        "message": "Use a for-of loop instead"
       },
-      ["describe", "only"],
-      ["it", "only"]
+      {
+        "name": ["describe", "only"],
+        "message": "Don't forget to remove .only before committing"
+      },
+      {
+        "name": ["it", "only"],
+        "message": "Don't forget to remove .only before committing"
+      }
     ],
     "callable-types": true,
     "class-name": true,
