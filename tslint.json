@@ -112,7 +112,8 @@
         "@storybook/addon-links/register",
         "mz",
         "monaco-editor/esm/vs/editor/editor.api",
-        "react-test-renderer/shallow"
+        "react-test-renderer/shallow",
+        "react-hot-loader/root"
       ]
     },
     "no-trailing-whitespace": true,
