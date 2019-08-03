@@ -25,10 +25,7 @@
     "tslint": "^5.15.0"
   },
   "dependencies": {
-    "rxjs-tslint-rules": "^4.23.0",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-react": "^4.0.0",
-    "tslint-react-hooks": "^2.1.0"
+    "rxjs-tslint-rules": "^4.23.0"
   },
   "devDependencies": {
     "@sourcegraph/prettierrc": "^3.0.1",
