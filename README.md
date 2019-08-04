@@ -6,12 +6,13 @@
 [![build](https://travis-ci.org/sourcegraph/tslint-config.svg?branch=master)](https://travis-ci.org/sourcegraph/tslint-config)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-TSLint rules for TypeScript projects at Sourcegraph.
+The last remaining TSLint rules for TypeScript projects at Sourcegraph that are not yet supported by ESLint.
+Must be used in conjunction with [`@sourcegraph/eslint-config`](https://www.npmjs.com/package/@sourcegraph/eslint-config).
 
 ## Usage
 
 ```
-npm install --save-dev @sourcegraph/tslint-config
+npm install --save-dev @sourcegraph/tslint-config@eslint
 ```
 
 Then add this tslint.json:
