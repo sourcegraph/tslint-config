@@ -1,6 +1,6 @@
 {
   "name": "@sourcegraph/tslint-config",
-  "version": "14.0.1",
+  "version": "14.0.2",
   "description": "TSLint config for TypeScript projects at Sourcegraph",
   "main": "tslint.json",
   "files": [
