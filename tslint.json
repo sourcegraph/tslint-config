@@ -1,9 +1,6 @@
 {
   "extends": ["rxjs-tslint-rules"],
   "rules": {
-    "deprecation": {
-      "severity": "warning"
-    },
     "no-boolean-literal-compare": true,
     "no-inferred-empty-object-type": true,
     "no-tautology-expression": true,
