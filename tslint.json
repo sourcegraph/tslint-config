@@ -1,16 +1,9 @@
 {
-  "extends": ["rxjs-tslint-rules"],
+  "extends": [],
   "rules": {
     "no-boolean-literal-compare": true,
     "no-inferred-empty-object-type": true,
     "no-tautology-expression": true,
-    "rxjs-no-ignored-observable": true,
-    "rxjs-no-ignored-subscription": {
-      "severity": "warning"
-    },
-    "rxjs-no-nested-subscribe": true,
-    "rxjs-no-unbound-methods": true,
-    "rxjs-throw-error": true,
     "strict-type-predicates": {
       "severity": "warning"
     }
