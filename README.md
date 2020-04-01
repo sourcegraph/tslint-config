@@ -1,3 +1,6 @@
+# ⚠️ Deprecated in favor of [@sourcegraph/eslint-config](https://github.com/sourcegraph/eslint-config)
+
+---
 
 # Sourcegraph TSLint config
 
@@ -41,4 +44,3 @@ git push
 git push --tags
 npm publish
 ```
-
