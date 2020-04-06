@@ -22,7 +22,7 @@
     "prettier-check": "npm run prettier -- --write=false"
   },
   "peerDependencies": {
-    "tslint": "^5.15.0"
+    "tslint": "^6.1.0"
   },
   "dependencies": {
     "rxjs-tslint-rules": "^4.23.0",
