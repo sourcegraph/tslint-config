@@ -101,10 +101,10 @@ tslint-react-hooks@^2.1.0:
   resolved "https://registry.yarnpkg.com/tslint-react-hooks/-/tslint-react-hooks-2.1.0.tgz#cc9841da0cef20d3527c8d16412f029c33767898"
   integrity sha512-ccjyguEHGEU5rXikLDaQ6kT1AVo3C0HV8gi2MIJc7SbYAXjbzJkpbs4IXulgfqdEY1T6RnNSuGhyXg+2jTm5Bg==
 
-tslint-react@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-4.0.0.tgz#b4bb4c01c32448cb14d23f143a2f5e4989bb961e"
-  integrity sha512-9fNE0fm9zNDx1+b6hgy8rgDN2WsQLRiIrn3+fbqm0tazBVF6jiaCFAITxmU+WSFWYE03Xhp1joCircXOe1WVAQ==
+tslint-react@^4.1.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-4.2.0.tgz#41b16e0438365f8d3ed4120501f02cabff9fd1e4"
+  integrity sha512-lO22+FKr9ZZGueGiuALzvZE/8ANoDoCHGCknX1Ge3ALrfcLQHQ1VGdyb1scZXQFdEQEfwBTIU40r5BUlJpn0JA==
   dependencies:
     tsutils "^3.9.1"
 
